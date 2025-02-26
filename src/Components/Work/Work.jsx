@@ -36,7 +36,13 @@ const Work = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div className="work" style={{ padding: "10% 15%" }}>
+=======
+    <>
+    <div className="work-container">
+    <div className="work"  >
+>>>>>>> 178441b (Initial commit)
       <p className="work-title">MY WORK</p>
       <h2 className="work-header">RECENT WORK</h2>
 
@@ -78,6 +84,12 @@ const Work = () => {
         )}
       </div>
     </div>
+<<<<<<< HEAD
+=======
+    </div>
+    </>
+
+>>>>>>> 178441b (Initial commit)
   );
 };
 

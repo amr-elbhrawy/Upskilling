@@ -1,5 +1,6 @@
 .about-us {
   padding: 10% 15%;
+<<<<<<< HEAD
  }
 
 .about-text {
@@ -71,3 +72,39 @@
     color: #6f42c1;
   }
   
+=======
+  text-align: left;
+}
+
+.section-title, .section-subtitle {
+  text-align: left;
+}
+
+.about-text {
+  margin-bottom: 1.5em;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #000000b3;
+}
+
+.custom-card {
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.custom-card-red { border-bottom: 3px solid #dc3545; }
+.custom-card-blue { border-bottom: 3px solid #007bff; }
+.custom-card-yellow { border-bottom: 3px solid #ffc107; }
+.custom-card-purple { border-bottom: 3px solid #6f42c1; }
+
+.card-title {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 2rem;
+}
+>>>>>>> 178441b (Initial commit)

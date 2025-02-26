@@ -3,10 +3,20 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import './About.css';  
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+<<<<<<< HEAD
+=======
+const services = [
+  { icon: "bi-lightbulb", title: "Graphic Design", color: "custom-card-blue" },
+  { icon: "bi-globe", title: "Web Design", color: "custom-card-red" },
+  { icon: "bi-server", title: "Software", color: "custom-card-yellow" },
+  { icon: "bi-phone", title: "Application", color: "custom-card-purple" }
+];
+>>>>>>> 178441b (Initial commit)
 
 function AboutUs() {
   return (
     <div className="about-us">
+<<<<<<< HEAD
      <Container className="about-us-container">
        <Row className="text-center mb-4">
         <Col>
@@ -68,6 +78,46 @@ function AboutUs() {
     </Container>
     </div>
    
+=======
+      <Container className="text-center">
+        <Row className="mb-4">
+          <Col>
+            <h6 className="section-subtitle">ABOUT US</h6>
+            <h2 className="section-title">WHO AM I?</h2>
+          </Col>
+        </Row>
+
+        <Row className="justify-content-center">
+          <Col md={8}>
+            <p className="about-text">
+              <strong>Hi, I'm Jackson Ford</strong>. On her way she met a copy. The copy warned the Little Blind Text,
+              that where it came from it would have been rewritten a thousand times and everything that was left
+              from its origin would be the word (and) and the Little Blind Text should turn around and return to
+              its own, safe country.
+            </p>
+            <p className="about-text">
+              Even the all-powerful Pointing has no control about the blind texts. It is an almost unorthographic
+              life. One day, however, a small line of blind text by the name of Lorem Ipsum decided to leave for
+              the far World of Grammar.
+            </p>
+          </Col>
+        </Row>
+
+        <Row>
+          {services.map((service, index) => (
+            <Col md={3} sm={6} className="mb-4" key={index}>
+              <Card className={`custom-card ${service.color}`}>
+                <Card.Body>
+                  <i className={`bi ${service.icon} icon`}></i>
+                  <h5 className="card-title">{service.title}</h5>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </div>
+>>>>>>> 178441b (Initial commit)
   );
 }
 

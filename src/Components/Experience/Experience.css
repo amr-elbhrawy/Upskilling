@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  
 .experience {
     padding: 15% 5%;
@@ -124,3 +125,133 @@ h3 span {
 }
 
  
+=======
+.experience {
+  padding: 10% 5%;
+  background-color: white;
+  text-align: left;
+}
+
+.section-subtitle {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 50px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50px;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #ddd;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 50px;
+}
+
+.timeline-icon {
+  position: absolute;
+  left: -25px;
+  top: 10%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.5rem;
+  box-shadow: 0 0 0 5px #f2f3f7;
+}
+
+.timeline-icon-1 {
+  background: #2c98f0;
+}
+
+.timeline-icon-2 {
+  background-color: #d9534f;
+}
+
+.timeline-icon-3 {
+  background-color: #f0ad4e;
+}
+
+.timeline-content {
+  position: relative;
+  background-color: #f2f3f7;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.timeline-item:not(:last-child) .timeline-content::before {
+  content: "";
+  position: absolute;
+  top: 15%;
+  left: -20px;
+  transform: translateY(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #f2f3f7 transparent transparent;
+}
+
+.timeline-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.timeline-content span {
+  opacity: 0.6;
+  font-size: 16px;
+}
+
+.timeline-content p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+ .timeline-content h3,
+.timeline-content p {
+  text-align: left;
+  direction: ltr;
+}
+
+ .timeline-icon-space {
+ background-color: white;
+}
+
+.timeline-content-space {
+  background-color: transparent;
+  box-shadow: none;
+}
+.experience .section-title,
+.experience .section-subtitle {
+    text-align: left;
+    padding-left: 15%;
+}
+>>>>>>> 178441b (Initial commit)

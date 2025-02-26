@@ -1,7 +1,11 @@
 .work {
     padding: 10% 15%;
+<<<<<<< HEAD
     width: 100%;
 }
+=======
+ }
+>>>>>>> 178441b (Initial commit)
 
  
 .work-navbar {
@@ -33,8 +37,12 @@
     border-bottom: 2px solid #007bff;
 }
  
+<<<<<<< HEAD
 /* معرض الصور */
 .image-gallery {
+=======
+ .image-gallery {
+>>>>>>> 178441b (Initial commit)
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -63,7 +71,11 @@
     left: 0;
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
     background: rgba(0, 123, 255, 0.5); /* لون أزرق شفاف */
+=======
+    background: rgba(0, 123, 255, 0.5);  
+>>>>>>> 178441b (Initial commit)
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     border-radius: 10px;

@@ -52,7 +52,11 @@ const Sidebar = () => {
           <nav className="nav">
             <Link to="/" onClick={toggleNavbar}>Home</Link>
             <Link to="/about" onClick={toggleNavbar}>About</Link>
+<<<<<<< HEAD
             <Link to="/contact" onClick={toggleNavbar}>Contact</Link>
+=======
+            <Link to="/experience" onClick={toggleNavbar}>Experience</Link>
+>>>>>>> 178441b (Initial commit)
             <Link to="/skills" onClick={toggleNavbar}>Skills</Link>
             <Link to="/work" onClick={toggleNavbar}>Work</Link>
           </nav>
