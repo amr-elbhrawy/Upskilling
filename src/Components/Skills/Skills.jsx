@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
-import "../Style/Skills.css";
+import "./Skills.css";
 const skillsData = [
   { name: "Photoshop", label: "75%", value: 75, color: "#3498db" },
   { name: "HTML5", label: "85%", value: 85, color: "#f39c12" },

@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import '../Style/About.css';  
+import './About.css';  
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 

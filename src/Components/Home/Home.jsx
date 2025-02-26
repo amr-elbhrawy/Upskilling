@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "../Style/Home.css";
+import "./Home.css";
 
 const slides = [
   { image: "/imgs/10001.jpg", text: "I am a Designer" },

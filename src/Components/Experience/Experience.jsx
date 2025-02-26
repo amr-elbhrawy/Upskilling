@@ -1,5 +1,5 @@
 import { FaPencilAlt } from "react-icons/fa";
-import "../Style/Experience.css";
+import "./Experience.css";
 
 const Experience = () => {
   return (
