@@ -87,8 +87,8 @@ function AboutUs() {
           </Col>
         </Row>
 
-        <Row className="justify-content-center">
-          <Col md={8}>
+        <Row className="">
+          <Col md={12}>
             <p className="about-text">
               <strong>Hi, I'm Jackson Ford</strong>. On her way she met a copy. The copy warned the Little Blind Text,
               that where it came from it would have been rewritten a thousand times and everything that was left
