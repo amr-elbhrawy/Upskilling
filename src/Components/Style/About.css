@@ -1,0 +1,73 @@
+.about-us {
+  padding: 10% 15%;
+ }
+
+.about-text {
+  text-align: left;
+  direction: ltr;
+}
+
+.section-title, .section-subtitle, .card-title {
+  text-align: left;
+  direction: ltr;
+}
+
+  strong{
+    font-weight: bolder;
+    font-size: 15px;
+  }
+  
+  .about-text {
+    margin-bottom: 1.5em;
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #000000b3;
+  }
+  
+  .custom-card {
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+  }
+  .custom-card-red{
+    border-bottom: 3px solid #dc3545;
+  }
+  .custom-card-blue{
+    border-bottom: 3px solid #007bff;
+  }
+  .custom-card-yellow{
+    border-bottom: 3px solid #ffc107;
+  }
+  .custom-card-purple{
+    border-bottom: 3px solid #6f42c1;
+  }
+  
+  .card-title {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .icon-blue {
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .icon-red {
+    font-size: 2rem;
+    color: #dc3545;
+  }
+  
+  .icon-yellow {
+    font-size: 2rem;
+    color: #ffc107;
+  }
+  
+  .icon-purple {
+    font-size: 2rem;
+    color: #6f42c1;
+  }
+  

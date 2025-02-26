@@ -1,0 +1,126 @@
+ 
+.experience {
+    padding: 15% 5%;
+    background-color: white;
+    text-align: left;
+}
+.experience-title {
+margin-bottom: 15px;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+   }
+  .experience-heading {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+    margin: 0 0 30px;
+    color: #000;}
+
+  .about-text {
+    text-align: left;
+    direction: ltr;
+  }
+
+h3 span {
+    opacity: .4;
+    font-size: 16px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+.timeline-icon-1{
+    background: #2c98f0;
+}
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50px;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #ddd;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 50px;
+}
+
+.timeline-icon {
+    position: absolute;
+    left: -25px;
+    top: 8%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #f2f3f7;
+}
+.timeline-icon-1{
+    background: #2c98f0;
+}
+.timeline-icon-2{
+    
+    background-color: #d9534f
+}
+.timeline-icon-3{
+    background-color: #f0ad4e
+}
+ 
+ .timeline-icon-space{
+     background-color: white;
+ }
+.timeline-content {
+    position: relative;
+    background-color: #f2f3f7;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+.timeline-item:not(:last-child) .timeline-content::before {
+    content: "";
+    position: absolute;
+    top: 15%;
+    left: -20px;  
+    transform: translateY(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #f2f3f7 transparent transparent; 
+}
+
+
+.timeline-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.timeline-content p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+.timeline-content-space{
+    background-color: transparent;
+    box-shadow: 0 0px 0px  ;
+
+}
+
+ 
